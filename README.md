@@ -19,26 +19,28 @@ The analysis uses publicly available records from Austin Animal Center:
 
 The datasets used in this analysis contain 173,812 intake records and 173,775 outcome records, covering approximately October 2013 through May 2025.
 
-The raw CSV files are not included in this repository. To run the analysis, download the datasets and save them locally as:
+The original CSV snapshots used for the reported analysis are included in this repository. They are located at:
 
 - `data/raw/intakes.csv`
 - `data/raw/outcomes.csv`
 
-The public datasets may change over time, so newly downloaded versions may not reproduce the exact numerical results reported here.
+For the reported results, use the CSV snapshots already included in `data/raw/`. The public datasets can change over time; downloading newer copies may produce different results. Refer to `data/README.md` for details.
 
 ## Repository Structure
 
-- `notebooks/milestone2_analysis.ipynb` — Data cleaning, exploratory analysis, statistical diagnostics, and baseline evaluation.
-- `report/` — Milestone 2 Technical Dossier in PDF and LaTeX formats.
+- `Notebooks/milestone2_analysis_organized.ipynb` — Main reproducible analysis notebook.
+- `Notebooks/milestone2_analysis_EL.ipynb` — Earlier exploratory working notebook.
+- `Reports/Lin_M2_Dossier (1).pdf` — Submitted technical dossier PDF; verify this is the latest report revision before Canvas submission.
+- `Reference/` — Supporting source reports.
 - `figures/` — Figures used in the report.
 - `data/raw/` — Location for the original CSV files.
 - `requirements.txt` — Python dependencies.
 
 ## Reproducing the Analysis
 
-1. Download the two datasets and place them in `data/raw/` using the filenames above.
+1. Check that the included CSV files exist in `data/raw/`.
 2. Install the required Python packages using `python -m pip install -r requirements.txt`.
-3. Open `notebooks/milestone2_analysis.ipynb` in VS Code or Jupyter.
+3. Open `Notebooks/milestone2_analysis_organized.ipynb` in VS Code or Jupyter.
 4. Restart the kernel and run all cells in order.
 
 The notebook includes data quality checks, event matching diagnostics, daily data aggregation, seasonal analysis, autocorrelation analysis, and preliminary baseline evaluation.
