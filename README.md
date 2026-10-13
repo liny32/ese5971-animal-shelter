@@ -30,7 +30,7 @@ For the reported results, use the CSV snapshots already included in `data/raw/`.
 
 - `Notebooks/milestone2_analysis_organized.ipynb` — Main reproducible analysis notebook.
 - `Notebooks/milestone2_analysis_EL.ipynb` — Earlier exploratory working notebook.
-- `Reports/Lin_M2_Dossier (1).pdf` — Submitted technical dossier PDF; verify this is the latest report revision before Canvas submission.
+- `Reports/Lin_M2_Dossier.pdf` — Milestone 2 Technical Dossier.; 
 - `Reference/` — Supporting source reports.
 - `figures/` — Figures used in the report.
 - `data/raw/` — Location for the original CSV files.
