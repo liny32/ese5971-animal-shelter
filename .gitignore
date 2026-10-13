@@ -1,0 +1,14 @@
+.DS_Store
+.Rhistory
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.env
+
+# Local backup notebook
+Notebooks/milestone2_analysis_EL.ipynb
+
+# LaTeX temporary files
+*.aux
+*.log
+*.synctex.gz
