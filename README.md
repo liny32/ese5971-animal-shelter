@@ -28,7 +28,7 @@ For the reported results, use the CSV snapshots already included in `data/raw/`.
 
 ## Repository Structure
 
-- `Notebooks/milestone2_analysis_organized.ipynb` — Main reproducible analysis notebook.
+- `Notebooks/milestone2_analysis.ipynb` — Main reproducible analysis notebook.
 - `Reports/Lin_M2_Dossier.pdf` — Milestone 2 Technical Dossier. 
 - `Reference/` — Supporting source reports.
 - `figures/` — Figures used in the report.
@@ -39,7 +39,7 @@ For the reported results, use the CSV snapshots already included in `data/raw/`.
 
 1. Check that the included CSV files exist in `data/raw/`.
 2. Install the required Python packages using `python -m pip install -r requirements.txt`.
-3. Open `Notebooks/milestone2_analysis_organized.ipynb` in VS Code or Jupyter.
+3. Open `Notebooks/milestone2_analysis.ipynb` in VS Code or Jupyter.
 4. Restart the kernel and run all cells in order.
 
 The notebook includes data quality checks, event matching diagnostics, daily data aggregation, seasonal analysis, autocorrelation analysis, and preliminary baseline evaluation.
